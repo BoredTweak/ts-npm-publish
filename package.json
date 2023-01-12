@@ -1,0 +1,26 @@
+{
+  "name": "boredtweak-npm-test",
+  "version": "1.0.0",
+  "description": "PoC of publishing to npm",
+  "main": ".",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoredTweak/ts-npm-publish.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoredTweak/ts-npm-publish/issues"
+  },
+  "homepage": "https://github.com/BoredTweak/ts-npm-publish#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.5",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.4"
+  }
+}
