@@ -1,6 +1,6 @@
 {
   "name": "boredtweak-npm-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "PoC of publishing to npm",
   "main": "lib/index.js",
   "files": [
