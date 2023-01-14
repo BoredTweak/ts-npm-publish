@@ -8,6 +8,10 @@ on:
 jobs:
   version:
     runs-on: ubuntu-latest
+
+    # Don't run this version increment if the triggering commit was a version increment
+    if: "!startsWith(github.event.head_commit.message, '[version increment]')"
+
     steps:
       - uses: actions/checkout@v2
         with:
